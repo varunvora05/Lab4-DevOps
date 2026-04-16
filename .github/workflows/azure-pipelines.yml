@@ -1,0 +1,27 @@
+trigger:
+- main
+
+pool:
+  name: Default
+
+steps:
+
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.x'
+
+- script: dotnet restore
+  displayName: Restore
+
+- script: dotnet build --configuration Release
+  displayName: Build
+
+- script: dotnet pack --configuration Release -o $(Build.ArtifactStagingDirectory)
+  displayName: Pack NuGet
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    publishVstsFeed: 'lab4-feed'
