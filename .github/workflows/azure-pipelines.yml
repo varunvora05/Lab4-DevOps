@@ -11,13 +11,13 @@ steps:
     packageType: 'sdk'
     version: '8.x'
 
-- script: dotnet restore
+- script: dotnet restore ClassLibrary2/ClassLibrary2.csproj
   displayName: Restore
 
-- script: dotnet build --configuration Release
+- script: dotnet build ClassLibrary2/ClassLibrary2.csproj --configuration Release
   displayName: Build
 
-- script: dotnet pack --configuration Release -o $(Build.ArtifactStagingDirectory)
+- script: dotnet pack ClassLibrary2/ClassLibrary2.csproj --configuration Release -o $(Build.ArtifactStagingDirectory)
   displayName: Pack NuGet
 
 - task: NuGetCommand@2
