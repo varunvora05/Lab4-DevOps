@@ -11,14 +11,14 @@ steps:
     packageType: 'sdk'
     version: '8.x'
 
-- script: dotnet restore ClassLibrary2/ClassLibrary2.csproj
+- script: dotnet restore StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj
   displayName: Restore
 
-- script: dotnet build ClassLibrary2/ClassLibrary2.csproj --configuration Release
+- script: dotnet build StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj --configuration Release
   displayName: Build
 
-- script: dotnet pack ClassLibrary2/ClassLibrary2.csproj --configuration Release -o $(Build.ArtifactStagingDirectory)
-  displayName: Pack NuGet
+- script: dotnet pack StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj --configuration Release -o $(Build.ArtifactStagingDirectory)
+  displayName: Pack
 
 - task: NuGetCommand@2
   inputs:
