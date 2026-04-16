@@ -27,5 +27,5 @@ steps:
   displayName: Pack
 
 # Push (FIXED)
-- script: dotnet nuget push "$(Build.ArtifactStagingDirectory)\*.nupkg" --source "https://pkgs.dev.azure.com/vvora1/Lab4/_packaging/lab4-feed/nuget/v3/index.json" --api-key AzureDevOps
+- script: dotnet nuget push "$(Build.ArtifactStagingDirectory)\*.nupkg" --source "https://pkgs.dev.azure.com/vvora1/Lab4/_packaging/lab4-feed/nuget/v3/index.json" --api-key AzureDevOps --skip-duplicate
   displayName: Push Package
