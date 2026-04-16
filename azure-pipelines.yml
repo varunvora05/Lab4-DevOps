@@ -11,19 +11,21 @@ steps:
     packageType: 'sdk'
     version: '8.x'
 
+# Authenticate with Azure Artifacts
 - task: NuGetAuthenticate@1
 
+# Restore
 - script: dotnet restore StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj
   displayName: Restore
 
+# Build
 - script: dotnet build StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj --configuration Release
   displayName: Build
 
+# Pack
 - script: dotnet pack StringExtensionsLib/StringExtensionsLib/StringExtensionsLib.csproj --configuration Release -o $(Build.ArtifactStagingDirectory)
   displayName: Pack
 
-- script: |
-    dotnet nuget push "$(Build.ArtifactStagingDirectory)/*.nupkg" \
-    --source "https://pkgs.dev.azure.com/vvora1/Lab4/_packaging/lab4-feed/nuget/v3/index.json" \
-    --api-key AzureDevOps
+# Push (FIXED)
+- script: dotnet nuget push "$(Build.ArtifactStagingDirectory)\*.nupkg" --source "https://pkgs.dev.azure.com/vvora1/Lab4/_packaging/lab4-feed/nuget/v3/index.json" --api-key AzureDevOps
   displayName: Push Package
