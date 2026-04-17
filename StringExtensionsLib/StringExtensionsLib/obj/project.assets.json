@@ -11,13 +11,13 @@
     "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
+      "projectUniqueName": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
       "projectName": "StringExtensionsLib",
-      "projectPath": "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
+      "projectPath": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "G:\\StringExtensionsLib\\StringExtensionsLib\\obj\\",
+      "outputPath": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

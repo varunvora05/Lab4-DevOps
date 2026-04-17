@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj": {}
+    "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj": {}
   },
   "projects": {
-    "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj": {
-      "version": "1.0.0",
+    "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
+        "projectUniqueName": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
         "projectName": "StringExtensionsLib",
-        "projectPath": "G:\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
+        "projectPath": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "G:\\StringExtensionsLib\\StringExtensionsLib\\obj\\",
+        "outputPath": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
