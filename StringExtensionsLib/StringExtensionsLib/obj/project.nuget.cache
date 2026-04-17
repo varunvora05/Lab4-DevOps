@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HkHx0XAsWCWCEP/QLg+zSix6DoH1HFrowUnRl8PZmRbcfOnA7Si2zMR+2Lfx/jmA/yK+OGpkr1Y/+r46qTO9MA==",
+  "dgSpecHash": "hrWch8hh3JV0xmautb4Qp1zg1pRqVmgQiog0NJDs+/B7E35Y+BeMoCAC30be8EUBjA5GmLHEuslBeoQnSO7PIA==",
   "success": true,
   "projectFilePath": "G:\\Lab4Devops\\StringExtensionsLib\\StringExtensionsLib\\StringExtensionsLib.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\nunit\\4.5.1\\nunit.4.5.1.nupkg.sha512"
+  ],
   "logs": []
 }

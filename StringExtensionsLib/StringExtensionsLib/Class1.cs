@@ -2,12 +2,12 @@
 {
     public static class StringExtensions
     {
-        public static bool StartsWithUpper(this string input)
+        public static bool StartsWithUpper(this string str)
         {
-            if (string.IsNullOrEmpty(input))
+            if (string.IsNullOrEmpty(str))
                 return false;
 
-            return char.IsUpper(input[0]);
+            return char.IsUpper(str[0]);
         }
     }
 }

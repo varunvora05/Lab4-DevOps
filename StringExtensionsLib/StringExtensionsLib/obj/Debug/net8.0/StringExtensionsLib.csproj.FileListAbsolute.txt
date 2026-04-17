@@ -21,3 +21,4 @@ G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExt
 G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\refint\StringExtensionsLib.dll
 G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.pdb
 G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\ref\StringExtensionsLib.dll
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.csproj.AssemblyReference.cache
