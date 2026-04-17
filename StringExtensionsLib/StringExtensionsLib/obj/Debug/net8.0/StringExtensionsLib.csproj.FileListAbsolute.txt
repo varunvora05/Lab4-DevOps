@@ -9,3 +9,15 @@ G:\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.
 G:\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\refint\StringExtensionsLib.dll
 G:\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.pdb
 G:\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\ref\StringExtensionsLib.dll
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\bin\Debug\net8.0\StringExtensionsLib.deps.json
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\bin\Debug\net8.0\StringExtensionsLib.dll
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\bin\Debug\net8.0\StringExtensionsLib.pdb
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.GeneratedMSBuildEditorConfig.editorconfig
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.AssemblyInfoInputs.cache
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.AssemblyInfo.cs
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.csproj.CoreCompileInputs.cache
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.sourcelink.json
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.dll
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\refint\StringExtensionsLib.dll
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\StringExtensionsLib.pdb
+G:\Lab4Devops\StringExtensionsLib\StringExtensionsLib\obj\Debug\net8.0\ref\StringExtensionsLib.dll
